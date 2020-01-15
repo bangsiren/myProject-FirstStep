@@ -39,3 +39,36 @@ body{
     width: 150px;
     height: 80px;
 }
+/* @media screen and (max-width: 650px){
+  .nav-link{
+      font-size: 30px !important;
+  }
+  .dropdown-item{
+    font-size: 100px !important;
+  }
+  .navbar-brand{
+    font-size: 30px !important;
+  }
+  .btn {
+    font-size: 100px !important;
+  }
+  p{
+    font-size: 100px !important;
+
+  }
+  h2{
+      font-size: 100px !important;
+  }
+  .tabl form{
+    font-size: 150px !important;
+  }
+} */
+@media screen and (min-width:600px) {
+   
+    .nav {
+        font-size: 35px;
+        color: red;
+    
+    }
+    
+}

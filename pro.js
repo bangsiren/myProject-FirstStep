@@ -1,19 +1,16 @@
 
 
 window.addEventListener("scroll",(e) => {
+    let body =document.querySelector('body')
     if(window.scrollY>200){
-        let nav = document.querySelector('nav')
-        let body =document.querySelector('body')
         body.style.backgroundColor = "white"
         body.style.transitionProperty= "background";
         body.style.transitionDuration="3s"
-        nav.style.backgroundColor = "blue"
-        nav.style.transitionProperty= "background";
-        nav.style.transitionDuration="3s"
-    }else
-    body.style.backgroundColor="red";
-    nav.style.backgroundColor="cyan";
-})
+    } 
+    else if(window.scrollY<200){
+          body.setAttribute('style',`body{background-color:secondary;}`)
+    }
+});
 
 // window.addEventListener('scroll',()=>{
   
